@@ -28,7 +28,8 @@
 
 
 # Logo
-![Logo]](https://i.postimg.cc/7YtPrhnB/Whats-App-Image-2026-06-22-at-10-59-11-PM.jpg)
+<img width="578" height="564" alt="WhatsApp Image 2026-06-22 at 10 59 11 PM" src="https://github.com/user-attachments/assets/0abd88e1-2a2e-4403-aba0-257767153660" />
+
 
 # Mission Statement: 
 "Weaving Yesterday into tomorrow"
