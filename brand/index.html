@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KNOT — Preserve My World</title>
+<style>
+  :root {
+    --bg: #1b1b1f;
+    --surface: #24242a;
+    --accent: #d9a441;
+    --text: #f2f0e9;
+    --muted: #a8a6a0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
+  }
+  header {
+    padding: 5rem 1.5rem 3rem;
+    text-align: center;
+    border-bottom: 1px solid #333;
+  }
+  header h1 {
+    font-size: 2.75rem;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+  }
+  header p {
+    margin-top: 0.75rem;
+    color: var(--muted);
+    font-size: 1.1rem;
+    font-family: Arial, sans-serif;
+  }
+  main {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+  }
+  section {
+    background: var(--surface);
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  section h2 {
+    color: var(--accent);
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+    font-family: Arial, sans-serif;
+  }
+  section p {
+    font-family: Arial, sans-serif;
+    color: var(--text);
+  }
+  .tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  .tag {
+    background: #333;
+    color: var(--accent);
+    padding: 0.3rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-family: Arial, sans-serif;
+  }
+  footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+    font-family: Arial, sans-serif;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>KNOT</h1>
+  <p>Weaving Yesterday into Tomorrow</p>
+</header>
+
+<main>
+  <section>
+    <h2>Our Mission</h2>
+    <p>KNOT is a student team building tools and stories that connect cultural heritage
+       with modern web and 3D technology, as part of the PreserveMy.World program.</p>
+  </section>
+
+  <section>
+    <h2>What We're Building</h2>
+    <p>This repository holds our team's brand system, project documentation, and the
+       web components we're developing for the PMW Web Engineering track.</p>
+    <div class="tag-row">
+      <span class="tag">Web Engineering</span>
+      <span class="tag">3D Reconstruction</span>
+      <span class="tag">Heritage Preservation</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Team</h2>
+    <p>Seerat E Zahra</p>
+    <p>Ayman</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2026 KNOT &mdash; PreserveMy.World Team
+</footer>
+
+</body>
+</html>
